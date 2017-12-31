@@ -2,8 +2,8 @@ import {Component} from '@angular/core'
 
 @Component({
    selector: 'pm-root',
-   templateUrl:'app.component.html
+   template: '<pm-products></pm-products>'
 })
 export class AppComponent{
-   pageTitle: string = 'Acme Product Management'
+   page: string = 'Acme Product Management'
 }
